@@ -10,4 +10,4 @@ export default {
 }
 </script>
 
-<style></style>
+<style lang="less" src="./app.less"></style>

@@ -19,3 +19,9 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
+1. 配置支持less 安装 style-loader css-loader less-loader less
+2. eslint 配置 自行查看搜索
+3. 封装各种组件 todo
+
