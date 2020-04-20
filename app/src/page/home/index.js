@@ -1,9 +1,9 @@
 import diaLog from '@/components/diaLog/index.vue'
+import Header from '@/components/header/index.vue'
 
 export default {
   data() {
     return {
-      msg: '首页',
       visible: false
     }
   },
@@ -16,9 +16,13 @@ export default {
     },
     confirm() {
       console.log('确定支付');
+    },
+    nativePush() {
+      this.$router.push('/test')
     }
   },
   components: {
-    diaLog
+    diaLog,
+    Header
   }
 }
