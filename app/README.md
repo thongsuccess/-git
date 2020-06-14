@@ -22,6 +22,11 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 
 1. 配置支持less 安装 style-loader css-loader less-loader less
-2. eslint 配置 自行查看搜索
+2. eslint 配置 
 3. 封装各种组件 todo
+4. typescript 准备接入
+5. 封装api 
+6. vuex 接入
+
+...
 

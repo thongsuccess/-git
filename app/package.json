@@ -5,7 +5,7 @@
   "author": "thong <tanghong@shscce.com>",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js --host 192.168.124.9",
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "build": "node build/build.js"
   },
@@ -24,11 +24,13 @@
     "eslint-plugin-vue": "^6.2.2",
     "less-loader": "^5.0.0",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vuex": "^3.4.0"
   },
   "devDependencies": {
     "3.0.0": "^3.0.0",
     "autoprefixer": "^7.1.2",
+    "axios": "^0.19.2",
     "babel-core": "^6.22.1",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
     "babel-loader": "^7.1.1",
